@@ -22,9 +22,6 @@ const Experience = ({ data }: { data: ExperienceType[] }) => {
         }, HOME_PRESENT_DELAY - 100)
     }, [data]);
 
-
-    console.log(11, listRef);
-
     return (
         <div className={styles.container} ref={containerRef}>
             {
